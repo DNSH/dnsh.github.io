@@ -1,0 +1,47 @@
+{
+  "name": "tenuki",
+  "version": "0.2.1",
+  "description": "Tenuki is a web-based board and JavaScript library for the game of go/baduk/weiqi.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require source-map-support/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aprescott/tenuki.js.git"
+  },
+  "keywords": [
+    "go",
+    "baduk",
+    "weiqi",
+    "board",
+    "fuzzy",
+    "game",
+    "html",
+    "css"
+  ],
+  "author": "Adam Prescott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aprescott/tenuki.js/issues"
+  },
+  "homepage": "https://github.com/aprescott/tenuki.js#readme",
+  "devDependencies": {
+    "babel-cli": "^6.7.7",
+    "babel-preset-es2015": "*",
+    "babelify": "*",
+    "body-parser": "^1.15.1",
+    "browserify": "*",
+    "chai": "^3.5.0",
+    "clean-css": "*",
+    "eslint": "*",
+    "express": "^4.13.4",
+    "jsdom": "*",
+    "mocha": "^2.4.5",
+    "source-map-support": "^0.4.0",
+    "uglify-js": "*"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}

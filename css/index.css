@@ -1,0 +1,193 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-color: #FAFAFA;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+#page-container{
+    height: 100%;
+}
+
+#logo{
+    margin: 0 auto;
+    display: block;
+    margin-top: 0px;
+}
+#player{
+    margin: 0 auto;
+    pointer-events: none;
+}
+
+#features-row{
+    background: #5C80FF;
+    font-size: 1.1em;
+    margin-right: 0px;
+    padding-bottom: 20px;
+}
+
+.features-table {
+
+  width: 100%;
+}
+
+.feature-row {
+    display: table;
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.feature-row img {
+  display: table-cell;
+  vertical-align: middle;
+  /*float: left;*/
+  width: 82.5px;
+  margin: 0;
+}
+
+.feature-row p {
+  display: table-cell;
+  vertical-align: middle;
+  /*float: right;*/
+  width: 60%;
+  margin: 0px;
+}
+
+
+#diagram, #trophy, #clock, #employees{
+    margin-right: 5%;
+}
+.feature-text{
+    color: white;
+}
+
+.cta {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px){
+    #player{
+        display: none;
+    }
+    #logo{
+        max-width: 300px;
+    }
+    #cta{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    form{
+        margin: 0 auto;
+        width: 250px;
+        text-align: center;
+        padding-bottom: 10px;
+        margin-top: 40px;
+    }
+    input{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    #features-row{
+
+    }
+}
+
+@media (min-width: 768px) {
+    form{
+        margin: 0 auto;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        width: 550px;
+        text-align: center;
+    }
+    input{
+        margin-bottom: 5px;
+        width: 50%;
+    }
+
+    #player {
+      margin-bottom: 10px;
+      margin-top: 30px;
+      margin-top: 10px;
+      width: 40%;
+      height: 40%;
+    }
+
+    .line-break {
+      display: none;
+    }
+
+    .cta-container {
+      margin-top: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 992px){
+  #player {
+    width: 55%;
+    height: 55%;
+    margin-top: 100px;
+  }
+
+  .cta-container {
+    margin-top: -225px;
+  }
+
+  #logo {
+    margin-top: 75px;
+  }
+
+  form {
+    width: 450px;
+  }
+
+}
+
+
+@media only screen and (min-width: 1280px){
+    #player{
+        width: 75%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        margin-right: 50px;
+    }
+    #cta{
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    form{
+        float:left;
+        width: 100%;;
+        text-align: center;
+    }
+    input{
+        width: 65%;
+        margin-bottom: 10px;
+    }
+
+    .cta-container {
+      margin-top: -275px;
+    }
+}
+
+@media only screen and (min-height: 1280px){
+  .feature-row {
+    height: 120px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .feature-icon {
+    height: 75px;
+    margin-left: 30px;
+  }
+
+}
