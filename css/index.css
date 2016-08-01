@@ -72,6 +72,10 @@ body{
   text-align: center;
 }
 
+#logo-hack {
+  display: none;
+}
+
 @media only screen and (max-width: 767px){
     #player{
         display: none;
@@ -131,63 +135,68 @@ body{
 }
 
 @media only screen and (min-width: 992px){
-  #player {
-    width: 55%;
-    height: 55%;
-    margin-top: 100px;
+
+  #player{
+      width: 55%;
+      margin-bottom: 30px;
+      margin-top: 30px;
+      margin-right: 75px;
+  }
+
+  #logo-container {
+      display: none;
+  }
+
+  #logo-hack {
+    display: block;
+    margin: 0 auto;
+  }
+
+  #cta{
+      margin: 0 auto;
+      margin-bottom: 50px;
+  }
+  form{
+      padding-top: 30px;
+      width: 100%;
+      text-align: center;
+  }
+  input{
+      width: 25%;
+      margin-bottom: 10px;
+  }
+
+  #signup-button {
+    width: 15%;
   }
 
   .cta-container {
-    margin-top: -225px;
+    margin-top: 20px;
   }
 
-  #logo {
-    margin-top: 75px;
+  #diagram, #trophy, #clock, #employees {
+    height: 150px;
   }
 
-  form {
-    width: 450px;
-  }
-
-}
-
-
-@media only screen and (min-width: 1280px){
-    #player{
-        width: 75%;
-        margin-bottom: 30px;
-        margin-top: 30px;
-        margin-right: 50px;
-    }
-    #cta{
-        margin: 0 auto;
-        margin-bottom: 50px;
-    }
-    form{
-        float:left;
-        width: 100%;;
-        text-align: center;
-    }
-    input{
-        width: 65%;
-        margin-bottom: 10px;
-    }
-
-    .cta-container {
-      margin-top: -275px;
-    }
-}
-
-@media only screen and (min-height: 1280px){
   .feature-row {
-    height: 120px;
-    font-size: 24px;
-    text-align: center;
+    height: 125px;
   }
 
-  .feature-icon {
-    height: 75px;
-    margin-left: 30px;
+}
+
+@media only screen and (min-width: 992px) and (min-height: 769px){
+
+  #features-row {
+    bottom: 0;
+    position: fixed;
+  }
+
+  .cta-container {
+    margin-top: 8%;
+  }
+
+  #player {
+    margin-top: 10%;
   }
 
 }
