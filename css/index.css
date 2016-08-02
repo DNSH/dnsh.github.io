@@ -76,7 +76,7 @@ body{
   display: none;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-device-width: 767px){
     #player{
         display: none;
     }
@@ -103,7 +103,7 @@ body{
     }
 }
 
-@media (min-width: 768px) {
+@media (min-device-width: 768px) {
     form{
         margin: 0 auto;
         margin-bottom: 30px;
@@ -134,7 +134,7 @@ body{
 
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-device-width: 992px){
 
   #player{
       width: 75%;
@@ -184,7 +184,7 @@ body{
 
 }
 
-@media only screen and (min-width: 992px) and (min-height: 769px){
+@media only screen and (min-device-width: 992px) and (min-device-height: 769px){
 
   #features-row {
     bottom: 0;
